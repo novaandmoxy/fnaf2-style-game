@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Night Shift</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="office">
+  <h2>Night 1</h2>
+  <p>Time: <span id="time">12 AM</span></p>
+  <button id="maskBtn">Put Mask On</button>
+  <button id="camBtn">Open Cameras</button>
+</div>
+
+<div id="cameras" class="hidden">
+  <h3>Cameras</h3>
+  <p id="camStatus">All clear…</p>
+  <button id="closeCam">Close Cameras</button>
+</div>
+
+<div id="mask" class="hidden">
+  <h1>MASK ON</h1>
+</div>
+
+<div id="jumpscare" class="hidden">
+  <h1>💀</h1>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
