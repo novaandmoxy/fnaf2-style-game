@@ -1,0 +1,40 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+#office {
+  margin-top: 40px;
+}
+
+#mask {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#jumpscare {
+  position: fixed;
+  inset: 0;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+}
